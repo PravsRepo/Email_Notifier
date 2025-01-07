@@ -1,0 +1,110 @@
+LEAP Program Tracker
+
+Purpose- To track each and every session of LEAP programs by the LEAP team efficiently. 
+
+The users of this system are the LEAP team and the LEAP college coordinator.
+
+Before every session, an E-mail notification will be sent to the LEAP team and to the LEAP college coordinator, if needed.
+And after the session too.
+
+A login account would be created for the LEAP team. Username and Password would be shared. Other than the LEAP team, 
+no one is supposed to utilize this account. 
+
+After login, a separate environment will be created for each college. Each college has a schedule of LEAP programs, and an E-mail notification will send by the 
+LEAP team champion(Sender) who is responsible for a particular college.
+
+<------------------------------------------------------------------------------------------------------------>
+<---Before the session--->
+Find the subject and body of the mail below,
+
+Subject: <Session name & Date>
+to: LEAP team(leap_info@respark.iitm.ac.in)
+Cc: LEAP college coordinator(If needed)
+
+Dear Team,
+
+The LEAP program LPXXX for the <College name>, is scheduled on 
+
+The session details are mentioned below,
+
+Phase: LEAP Kickoff
+Start Date & End Date: <Start date> to <End date>
+Session name: ----------
+Duration: -----
+Activity Type: Lecture
+Responsibilities: <LEAP team member>
+Mode: Online (or) Offline
+
+# (If the mode of the session is online link will be shared before 15 mins befor the program.
+The session will be conducted online, the online l
+
+Note: After completing the session, the LEAP champion should follow the below URL and update the status of the session.
+<---------url---------->
+
+Thanks, and Regards,
+<LEAP champion>
+
+<---------------------------------------------------------------------------------------------------------------->
+
+After updating the status of the session, an E-mail notification will be sent to the LEAP team by the LEAP champion.
+
+
+<---------------------------------------------------------------------------------------------------------------->
+<---After the session--->
+Subject: <Session name & Date>
+to: LEAP team(leap_info@respark.iitm.ac.in)
+Cc: LEAP college coordinator(If needed)
+
+Dear Team,
+
+Good day.
+
+The LEAP program has started well on <college name>. The LEAP team is happy to share that, <the session name> of this LEAP program has been
+conducted well by the <LEAP champion>.
+
+The students and faculty were coordinated very well and it was very interactive.
+
+Looking forward to the next session, a prior notification will be sent soon.
+
+Note: To follow the status of this LEAP program, kindly follow the below URL
+
+Thanks, and Regards,
+<LEAP champion>
+<---------------------------------------------------------------------------------------------------------------->
+
+
+
+Additional Features:
+
+Progress bar for seeing the progression of the LEAP program. 
+
+
+Choosing the appropriate logging level for your code depends on the level of detail you want to capture in your log messages, 
+and the severity of the events you're logging. Here's a brief overview of the five logging levels:
+
+DEBUG: Detailed information for debugging purposes.
+INFO: Informational messages that confirm things are working as expected.
+WARNING: An indication that something unexpected or potentially problematic happened.
+ERROR: An error occurred that caused some functionality to fail.
+CRITICAL: A critical error occurred that may cause the application to stop working.
+In your specific case of reading a file using Pandas and performing some functions, you may want to consider the following guidelines 
+for choosing the appropriate logging level:
+
+Use DEBUG level to log detailed information about the execution of your functions, such as the input parameters, intermediate variables, 
+and the output values. This level can be useful for diagnosing issues during development and testing.
+
+Use INFO level to log high-level information about the progress of your program, such as the start and end of file reading and processing,
+the number of records processed, and the summary statistics. This level can help you monitor the behavior of your program during runtime.
+
+Use WARNING level to log events that are unexpected or may indicate potential issues, such as missing data, incompatible data types, 
+or unexpected values. This level can help you identify potential problems before they cause serious issues.
+
+Use ERROR level to log errors that caused your program to fail, such as file not found, invalid input parameters, or function exceptions. 
+This level can help you quickly diagnose the cause of the error and take corrective actions.
+
+Use CRITICAL level to log critical errors that may cause your program to stop working or compromise the system, 
+such as system-level errors or security breaches. This level should be used sparingly and only for the most severe events.
+
+Based on these guidelines, you can choose the appropriate logging level for your specific use case. 
+For example, you may want to use INFO level for logging the start and end of file reading and processing, WARNING level for logging 
+missing or incompatible data, and ERROR level for logging function exceptions that caused your program to fail.
